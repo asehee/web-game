@@ -364,8 +364,8 @@ function addPlanets(self) {
         { planet: 'earth', x: 2200, y: 1000 },
         { planet: 'moon', x: 700, y: 2000 },
         { planet: 'venus', x: 2000, y: 2200 }
-    ];
-    
+    ]; 
+     
     self.planets.create(planetList[0].x, planetList[0].y, 'jupiter').setCircle(258);
     self.planets.create(planetList[1].x, planetList[1].y, 'earth').setCircle(258);
     self.planets.create(planetList[2].x, planetList[2].y, 'moon').setCircle(285, -2, 20);
